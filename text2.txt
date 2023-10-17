@@ -1,0 +1,9 @@
+ask for user age & age of desired retirement.
+validate that inputs are positive numbers & age < retireAge
+get the current year.
+calculate birthYear = currentYear - Age.
+calculate retireYear = birthYear + retireAge
+calculate yearsLeft = retireYear - currentYear
+show this message
+You have "yearsLeft" until you can retire
+It's "currentYear", so you can retire at "retireYear"

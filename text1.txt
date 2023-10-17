@@ -1,0 +1,21 @@
+The inputs:
+1-Age you want to retire
+2-Your Age
+3-Current year
+
+The outputs:
+1-how many years you have left
+2- the year you can retire
+
+The process:
+1- calculate the birthyear (Current year-Age)
+2- calculate retirement year (retire age + birthyear)
+3- calculate years left (retirement year - current year)
+
+The Constrains:
+1-retirement year can not be smaller the current year
+2- age can not be empty or negative
+3- retire age must be bigger than age
+
+Edge case :
+Age =< retireAge => show a message that you are already retired
